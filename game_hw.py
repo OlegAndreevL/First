@@ -10,7 +10,7 @@ def random_predict(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0                                                   # счетчик попыток поиска числа
-    min_value, max_value = 1, 100
+    min_value, max_value = 1, 101
     predict_number = np.random.randint(1, 101)                  # предполагаемое число
     
     while predict_number != number:                             # считаем кол-во попыток найти число с помощью цикла
@@ -35,7 +35,7 @@ def score_game(random_predict) -> int:
     """
     count_ls = []                                               # в пустой список будем добавлять рез-ты для каждого числа
     np.random.seed(1)                                           # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(200))        # загадали список чисел (не беру больше 200, у меня комп-р отказывается считать почему-то)
+    random_array = np.random.randint(1, 101, size=(10000))        # загадали список чисел (не беру больше 200, у меня комп-р отказывается считать почему-то)
     
     for number in random_array:                                 # циклом проходимся по списку чисел, к каждому применяя функцию поиска числа
         count_ls.append(random_predict(number))
