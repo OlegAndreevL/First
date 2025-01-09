@@ -250,10 +250,14 @@
 # Напишите функцию get_unique_loto(num). Она так же, как и функция в задании выше, 
 # генерирует num полей для игры в лото, однако теперь на каждом поле 5х5 числа не могут повторяться.
 # Функция также должна возвращать массив формы num x 5 x 5.
-import numpy as np
-def get_unique_loto(num):
-    card = np.random.choice(101, size=(5, 5), replace=False)
-    print(card)
-get_unique_loto(3)
+# import numpy as np
+# def get_unique_loto(num):
+#     sample = np.arange(1, 101)
+#     res = list()
+#     for i in range(num):
+#         res.append(np.random.choice(sample, replace=False, size=(5, 5)))
+#     res = np.array(res)
+#     return res
+
     
 
