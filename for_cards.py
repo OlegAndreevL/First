@@ -1,4 +1,4 @@
 import numpy as np
-regole = np.random.choice(range(1, 30), size=2, replace=False)
+regole = np.random.choice(range(1, 35), size=2, replace=False)
 esercizii = np.random.choice(range(1, 6), size=2, replace=False)
 print(f'Дима: правила - {regole[0]}, упражнения - {esercizii[0]}; \nОлег: правила - {regole[1]}, упражнения - {esercizii[1]}')
