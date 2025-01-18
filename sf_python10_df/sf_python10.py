@@ -85,7 +85,3 @@ import pandas as pd
 #             print(None)
 #     get_profit(table, 2019)
 # create_companyDF(income, expenses, years)
-import numpy as np
-oleg = np.random.randint(1, 51)
-dima = np.random.randint(1, 51)
-print(f'Олег - {oleg}, Дима - {dima}')
