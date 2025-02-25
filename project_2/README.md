@@ -1,4 +1,4 @@
-# Проект 1. Анализ вакансий на портале hh.ru
+# Проект 2. Анализ вакансий на портале hh.ru
 
 Для подключения вам потребуются следующие данные:
 * dbname — название базы, к которой нужно подключиться;
@@ -29,18 +29,18 @@
 
 `pip install psycopg2`
 
-Полный список необходимых установок находится в файле [__reqiurtments__]()
+Полный список необходимых установок находится в файле [__requirements__](https://github.com/OlegAndreevL/First/blob/main/project_2/requirements.txt)
 
 ---
 ### Краткая информация о данных
 Имеем 5 таблиц следующего содержания:
-1. Vacancies (более подробно с данными можно ознакомиться по [ссылке]())
-2. [Areas]()
-3. [Employers]()
-4. [Industries]()
-5. [Employers_industries]()
+1. Vacancies (более подробно с данными можно ознакомиться по [ссылке](https://github.com/OlegAndreevL/First/blob/main/project_2/information/vacancies.png))
+2. [Areas](https://github.com/OlegAndreevL/First/blob/main/project_2/information/areas.png)
+3. [Employers](https://github.com/OlegAndreevL/First/blob/main/project_2/information/employers.png)
+4. [Industries](https://github.com/OlegAndreevL/First/blob/main/project_2/information/industries.png)
+5. [Employers_industries](https://github.com/OlegAndreevL/First/blob/main/project_2/information/employers_industries.png)
 
-Также по [ссылке]() можно ознакомиться со связями между таблицами, первичными и внешними ключами.
+Также по [ссылке](https://github.com/OlegAndreevL/First/blob/main/project_2/information/connections.png) можно ознакомиться со связями между таблицами, первичными и внешними ключами.
 
 ---
 ### Этапы работы над проектом
@@ -78,4 +78,4 @@
     * Выводы по пункту "Предметный анализ"
 * __Общие выводы по проекту__
 
-Ознакомиться с выводами и непосредственно кодом можно в [основном файле]().
+Ознакомиться с выводами и непосредственно кодом можно в [основном файле](https://github.com/OlegAndreevL/First/blob/main/project_2/Project_2_%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA_%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD.ipynb).
